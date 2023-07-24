@@ -1,0 +1,32 @@
+{
+"okibaru": {
+    "information": {
+        "name":"ibishu okibaru",
+        "authors":"ScyllaStrikes",
+        "value": 1800
+    },
+    "slotType": "main",
+
+    "refNodes": [
+        ["ref:", "left:", "back:", "up:"],
+        ["nc", "nl", "nb", "nu"],
+    ],
+
+    "nodes": [
+        ["id", "posX", "posY", "posZ"],
+        {"nodeWeight":10},
+        {"nodeMaterial":"|NM_METAL"},
+        {"collision":"true"},
+        {"selfcollision":"false"},
+        ["nc", 0, 0, 0],
+        ["nl", 1, 0, 0],
+        ["nb", 0, 1, 0],
+        ["nu", 0, 0, 1],
+    ],
+    "beams":[
+        ["id1:", "id2:"],
+        {"beamSpring": 200000 },
+        ["nc", "nu"],
+    ],
+}
+}
