@@ -1,0 +1,22 @@
+{
+"okibaru": {
+    "information":{
+        "authors":"ScyllaStrikes",
+        "name":"ibishu okibaru",
+        "value" : 1800
+    },
+    "slotType" : "unibody",
+    "refNodes": [
+        ["ref:", "back:", "left:", "up:", "leftCorner:", "rightCorner:"],
+    ] ,
+    "nodes":[
+        ["id","posX","posY","posZ"],
+        ["c",0,0,0],
+        ["l",1,0,0],
+        ["b",0,1,0],
+        ["u",0,0,1]
+    ]
+
+
+
+}

@@ -1,0 +1,12 @@
+{
+    "Name ": "okibaru",
+    "Brand":"ibishu ",
+    "Author": "ScyllaStrikes",
+    "Type": "sedan",
+    "default_pc":"default",
+    "default_color":{
+        "white":"1,1,1,1",
+        "Red":"1,0,0,1"
+    },
+    "Years": "1987-1991"
+}
