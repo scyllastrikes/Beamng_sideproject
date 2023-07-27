@@ -25,8 +25,17 @@
     ],
     "beams":[
         ["id1:", "id2:"],
-        {"beamSpring": 200000 },
+        {"beamSpring": 420000 },//how many NM for the beam to compress by 1m average 420000
+        {"beamDamp": 200 },//newton, per meter per second go withon 100s or 10s
+        {"beamDeform": 50000 },//value in nm until it deforms
+        {"beamStrength": 50000},//default vakue "FLT_MAX"
         ["nc", "nu"],
+        ["nc", "nl"],
+        ["nc", "nb"],
+        ["nb", "nu"],
+        ["nb", "nl"],
+        ["nl", "nu"],
+
     ],
 }
 }
